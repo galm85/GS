@@ -8,6 +8,20 @@ const app = express();
 
 
 
+app.get('/user',(req,res)=>{
+    res.send('users');
+})
+
+
+app.get('/',(req,res)=>{
+    res.send('Hello From GS');
+})
+
+
+
+
+
+
 
 
 
